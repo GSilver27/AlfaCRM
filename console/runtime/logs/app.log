@@ -1,0 +1,2063 @@
+2022-06-29 12:25:42 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migrate:rolback". in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate:rolback', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate:rolback', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate:rolback". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate:rolback', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-06-29 12:25:42 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-309'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656494742.509
+    'REQUEST_TIME' => 1656494742
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => 'migrate:rolback'
+    ]
+    'argc' => 2
+]
+2022-06-29 14:42:47 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/back in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('back', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('back', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/back', Array)
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/back', Array)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/back". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/back', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-06-29 14:42:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMPOSER_CACHE_DIR' => '..\\..\\..\\userdata\\composer\\cache'
+    'COMPOSER_CAFILE' => '..\\..\\..\\userdata\\config\\cacert.pem'
+    'COMPOSER_HOME' => '..\\..\\..\\userdata\\composer'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-97'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656502967.0724
+    'REQUEST_TIME' => 1656502967
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => 'migrate/back'
+    ]
+    'argc' => 2
+]
+2022-06-29 14:42:54 [-][-][-][error][yii\console\Exception] yii\console\Exception: Unknown alias: -help. Aliases available: -h (--help), -C (--comment), -f (--fields), -p (--migrationPath), -t (--migrationTable), -F (--templateFile), -P (--useTablePrefix), -c (--compact) in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php:137
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#5 {main}
+2022-06-29 14:42:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMPOSER_CACHE_DIR' => '..\\..\\..\\userdata\\composer\\cache'
+    'COMPOSER_CAFILE' => '..\\..\\..\\userdata\\config\\cacert.pem'
+    'COMPOSER_HOME' => '..\\..\\..\\userdata\\composer'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-97'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656502974.7333
+    'REQUEST_TIME' => 1656502974
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => 'migrate'
+        2 => '-help'
+    ]
+    'argc' => 3
+]
+2022-06-29 14:43:50 [-][-][-][error][ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in W:\domains\alfa-crm\console\migrations\m220629_114139_create_token_table.php:29
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\MigrateController.php(197): yii\console\controllers\BaseMigrateController->includeMigrationFile('m220629_114139_...')
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(757): yii\console\controllers\MigrateController->createMigration('m220629_114139_...')
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m220629_114139_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('', Array)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#12 {main}
+2022-06-29 14:43:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMPOSER_CACHE_DIR' => '..\\..\\..\\userdata\\composer\\cache'
+    'COMPOSER_CAFILE' => '..\\..\\..\\userdata\\config\\cacert.pem'
+    'COMPOSER_HOME' => '..\\..\\..\\userdata\\composer'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-97'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656503028.9369
+    'REQUEST_TIME' => 1656503028
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2022-06-29 14:44:22 [-][-][-][error][ParseError] ParseError: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in W:\domains\alfa-crm\console\migrations\m220629_114139_create_token_table.php:29
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\MigrateController.php(197): yii\console\controllers\BaseMigrateController->includeMigrationFile('m220629_114139_...')
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(757): yii\console\controllers\MigrateController->createMigration('m220629_114139_...')
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m220629_114139_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('', Array)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#12 {main}
+2022-06-29 14:44:20 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMPOSER_CACHE_DIR' => '..\\..\\..\\userdata\\composer\\cache'
+    'COMPOSER_CAFILE' => '..\\..\\..\\userdata\\config\\cacert.pem'
+    'COMPOSER_HOME' => '..\\..\\..\\userdata\\composer'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-97'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656503060.3197
+    'REQUEST_TIME' => 1656503060
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2022-06-29 14:55:16 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "-serve". in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('-serve', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('-serve', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "-serve". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('-serve', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-06-29 14:55:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'COMPOSER_CACHE_DIR' => '..\\..\\..\\userdata\\composer\\cache'
+    'COMPOSER_CAFILE' => '..\\..\\..\\userdata\\config\\cacert.pem'
+    'COMPOSER_HOME' => '..\\..\\..\\userdata\\composer'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-97'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656503716.6373
+    'REQUEST_TIME' => 1656503716
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => '-serve'
+    ]
+    'argc' => 2
+]
+2022-06-29 15:46:51 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: cron/get-tocen in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#4 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#5 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "cron/get-tocen". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-06-29 15:46:51 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '189x32766 (189x27)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x037A077E'
+    'ConEmuBaseDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'E:\\“ç¥¡ \\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '191012'
+    'ConEmuCfgDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x008108EC'
+    'ConEmuDrive' => 'E:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x003608BA'
+    'ConEmuPalette' => 'OSPanel'
+    'ConEmuPID' => '14944'
+    'ConEmuServerPID' => '11084'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'W:\\'
+    'ConEmuWorkDrive' => 'W:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'w:\\'
+    'HOMEDRIVE' => 'w:'
+    'HOMEPATH' => '\\'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'OPENSSL_CONF' => 'w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu\\Scripts;E:\\ãç¥¡ \\openserver\\modules\\conemu;E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu;w:\\modules\\php\\PHP_7.4\\ext;w:\\modules\\php\\PHP_7.4\\pear;w:\\modules\\php\\PHP_7.4\\pear\\bin;w:\\modules\\php\\PHP_7.4;w:\\modules\\wget\\bin;w:\\modules\\database\\MariaDB-10.3\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHPDIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHPRC' => 'w:\\modules\\php\\PHP_7.4'
+    'PHP_BIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_BINARY' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_BINDIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHP_DIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHP_INI' => 'w:\\modules\\php\\PHP_7.4\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'e:\\ãç¥¡ \\openserver\\userdata\\temp'
+    'TMP' => 'e:\\ãç¥¡ \\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656506811.1419
+    'REQUEST_TIME' => 1656506811
+    'argv' => [
+        0 => 'yii'
+        1 => 'cron/get-tocen'
+    ]
+    'argc' => 2
+]
+2022-06-29 15:50:43 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: cron/get-tocen in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#4 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#5 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "cron/get-tocen". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-06-29 15:50:43 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '189x32766 (189x27)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x037A077E'
+    'ConEmuBaseDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'E:\\“ç¥¡ \\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '191012'
+    'ConEmuCfgDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x008108EC'
+    'ConEmuDrive' => 'E:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x003608BA'
+    'ConEmuPalette' => 'OSPanel'
+    'ConEmuPID' => '14944'
+    'ConEmuServerPID' => '11084'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'W:\\'
+    'ConEmuWorkDrive' => 'W:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'w:\\'
+    'HOMEDRIVE' => 'w:'
+    'HOMEPATH' => '\\'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'OPENSSL_CONF' => 'w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu\\Scripts;E:\\ãç¥¡ \\openserver\\modules\\conemu;E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu;w:\\modules\\php\\PHP_7.4\\ext;w:\\modules\\php\\PHP_7.4\\pear;w:\\modules\\php\\PHP_7.4\\pear\\bin;w:\\modules\\php\\PHP_7.4;w:\\modules\\wget\\bin;w:\\modules\\database\\MariaDB-10.3\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHPDIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHPRC' => 'w:\\modules\\php\\PHP_7.4'
+    'PHP_BIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_BINARY' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_BINDIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHP_DIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHP_INI' => 'w:\\modules\\php\\PHP_7.4\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'e:\\ãç¥¡ \\openserver\\userdata\\temp'
+    'TMP' => 'e:\\ãç¥¡ \\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656507043.1808
+    'REQUEST_TIME' => 1656507043
+    'argv' => [
+        0 => 'yii'
+        1 => 'cron/get-tocen'
+    ]
+    'argc' => 2
+]
+2022-06-29 15:50:56 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: yii\console\Request::validateCsrfToken() in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\web\Controller.php(222): yii\base\Component->__call()
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#6 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#7 {main}
+2022-06-29 15:50:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '189x32766 (189x27)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x037A077E'
+    'ConEmuBaseDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'E:\\“ç¥¡ \\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '191012'
+    'ConEmuCfgDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x008108EC'
+    'ConEmuDrive' => 'E:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x003608BA'
+    'ConEmuPalette' => 'OSPanel'
+    'ConEmuPID' => '14944'
+    'ConEmuServerPID' => '11084'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'W:\\'
+    'ConEmuWorkDrive' => 'W:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'w:\\'
+    'HOMEDRIVE' => 'w:'
+    'HOMEPATH' => '\\'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'OPENSSL_CONF' => 'w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu\\Scripts;E:\\ãç¥¡ \\openserver\\modules\\conemu;E:\\ãç¥¡ \\openserver\\modules\\conemu\\ConEmu;w:\\modules\\php\\PHP_7.4\\ext;w:\\modules\\php\\PHP_7.4\\pear;w:\\modules\\php\\PHP_7.4\\pear\\bin;w:\\modules\\php\\PHP_7.4;w:\\modules\\wget\\bin;w:\\modules\\database\\MariaDB-10.3\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;w:\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHPDIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHPRC' => 'w:\\modules\\php\\PHP_7.4'
+    'PHP_BIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_BINARY' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_BINDIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHP_DIR' => 'w:\\modules\\php\\PHP_7.4\\'
+    'PHP_INI' => 'w:\\modules\\php\\PHP_7.4\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'w:\\modules\\php\\PHP_7.4\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'w:\\modules\\php\\PHP_7.4\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'e:\\ãç¥¡ \\openserver\\userdata\\temp'
+    'TMP' => 'e:\\ãç¥¡ \\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656507056.1074
+    'REQUEST_TIME' => 1656507056
+    'argv' => [
+        0 => 'yii'
+        1 => 'cron/get-token'
+    ]
+    'argc' => 2
+]
+2022-06-29 18:58:29 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alfa_crm.user' doesn't exist in W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('ALTER TABLE `us...')
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Migration.php(377): yii\db\Command->execute()
+#3 W:\domains\alfa-crm\console\migrations\m190124_110200_add_verification_token_column_to_user_table.php(9): yii\db\Migration->addColumn('{{%user}}', 'verification_to...', Object(yii\db\mysql\ColumnSchemaBuilder))
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(758): m190124_110200_add_verification_token_column_to_user_table->up()
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m190124_110200_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('', Array)
+#10 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#11 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alfa_crm.user' doesn't exist
+The SQL being executed was: ALTER TABLE `user` ADD `verification_token` varchar(255) NULL DEFAULT NULL in W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'ALTER TABLE `us...')
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('ALTER TABLE `us...')
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Migration.php(377): yii\db\Command->execute()
+#3 W:\domains\alfa-crm\console\migrations\m190124_110200_add_verification_token_column_to_user_table.php(9): yii\db\Migration->addColumn('{{%user}}', 'verification_to...', Object(yii\db\mysql\ColumnSchemaBuilder))
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(758): m190124_110200_add_verification_token_column_to_user_table->up()
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m190124_110200_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('', Array)
+#10 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#11 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'alfa_crm.user' doesn't exist
+)
+
+2022-06-29 18:58:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-97'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656518307.9459
+    'REQUEST_TIME' => 1656518307
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2022-06-30 07:34:41 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+	`verification_token` varchar(255) NULL DEFAULT NULL,
+	`status` smallint(6) NOT' at line 11 in W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 W:\domains\alfa-crm\console\migrations\m130524_201442_init.php(15): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(758): m130524_201442_init->up()
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('', Array)
+#10 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#11 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+	`verification_token` varchar(255) NULL DEFAULT NULL,
+	`status` smallint(6) NOT' at line 11
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`phone` varchar(255) NOT NULL UNIQUE,
+	`is_student` tinyint(1) DEFAULT 0,
+	`gender` tinyint(1) DEFAULT 0,
+	`crm_id` ,
+	`verification_token` varchar(255) NULL DEFAULT NULL,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 W:\domains\alfa-crm\console\migrations\m130524_201442_init.php(15): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(758): m130524_201442_init->up()
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('', Array)
+#10 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#11 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+	`verification_token` varchar(255) NULL DEFAULT NULL,
+	`status` smallint(6) NOT' at line 11
+)
+
+2022-06-30 07:34:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-97'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656563679.6143
+    'REQUEST_TIME' => 1656563679
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2022-06-30 07:35:46 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+	`verification_token` varchar(255) NULL DEFAULT NULL,
+	`status` smallint(6) NOT' at line 11 in W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 W:\domains\alfa-crm\console\migrations\m130524_201442_init.php(15): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(758): m130524_201442_init->up()
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('', Array)
+#10 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#11 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+	`verification_token` varchar(255) NULL DEFAULT NULL,
+	`status` smallint(6) NOT' at line 11
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`phone` varchar(255) NOT NULL UNIQUE,
+	`is_student` tinyint(1) DEFAULT 0,
+	`gender` tinyint(1) DEFAULT 0,
+	`crm_id` ,
+	`verification_token` varchar(255) NULL DEFAULT NULL,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Command.php(1102): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 W:\domains\alfa-crm\console\migrations\m130524_201442_init.php(15): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(758): m130524_201442_init->up()
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('', Array)
+#10 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('', Array)
+#11 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+	`verification_token` varchar(255) NULL DEFAULT NULL,
+	`status` smallint(6) NOT' at line 11
+)
+
+2022-06-30 07:35:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'OneDriveConsumer' => 'C:\\Users\\User\\OneDrive'
+    'YII_PATH' => 'W:\\domains\\alfa-crm\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\User\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-97'
+    'SystemDrive' => 'C:'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'HOMEPATH' => '\\Users\\User'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin'
+    'USERNAME' => 'User'
+    'ProgramFiles' => 'C:\\Program Files'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'PROCESSOR_LEVEL' => '21'
+    'ProgramData' => 'C:\\ProgramData'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'PROCESSOR_REVISION' => '0200'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'windir' => 'C:\\WINDOWS'
+    'ProgramW6432' => 'C:\\Program Files'
+    'OS' => 'Windows_NT'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'HOMEDRIVE' => 'C:'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_NAME' => 'W:\\domains\\alfa-crm\\yii'
+    'SCRIPT_FILENAME' => 'W:\\domains\\alfa-crm\\yii'
+    'PATH_TRANSLATED' => 'W:\\domains\\alfa-crm\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1656563744.2686
+    'REQUEST_TIME' => 1656563744
+    'argv' => [
+        0 => 'W:\\domains\\alfa-crm\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2022-07-21 15:04:59 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/rollback in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('rollback', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('rollback', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/rollbac...', Array)
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/rollbac...', Array)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/rollback". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/rollbac...', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-07-21 15:04:59 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_712_HRXQCXTVGJIKHIIP'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Users\\User\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\WINDOWS'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.69.2'
+    'LANG' => 'ru_RU.UTF-8'
+    'COLORTERM' => 'truecolor'
+    'GIT_ASKPASS' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => '--ms-enable-electron-run-as-node'
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-e4354c9d0e-sock'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1658405099.199
+    'REQUEST_TIME' => 1658405099
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/rollback'
+    ]
+    'argc' => 2
+]
+2022-07-22 11:34:35 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migraton/create". in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migraton/create', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migraton/create', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migraton/create". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migraton/create', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-07-22 11:34:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_8940_MPPATOFMKRSTSGAS'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Users\\User\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\WINDOWS'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.69.2'
+    'LANG' => 'ru_RU.UTF-8'
+    'COLORTERM' => 'truecolor'
+    'GIT_ASKPASS' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => '--ms-enable-electron-run-as-node'
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-e4354c9d0e-sock'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1658478875.3435
+    'REQUEST_TIME' => 1658478875
+    'argv' => [
+        0 => 'yii'
+        1 => 'migraton/create'
+        2 => 'add_columns_bals_stageStatus_to_user_table'
+    ]
+    'argc' => 3
+]
+2022-07-22 11:56:37 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/dowm in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('dowm', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('dowm', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/dowm', Array)
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/dowm', Array)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/dowm". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/dowm', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-07-22 11:56:36 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_10260_MPFQBNJEYJUZAQPV'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Users\\User\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\WINDOWS'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.69.2'
+    'LANG' => 'ru_RU.UTF-8'
+    'COLORTERM' => 'truecolor'
+    'GIT_ASKPASS' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => '--ms-enable-electron-run-as-node'
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-e4354c9d0e-sock'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1658480196.8443
+    'REQUEST_TIME' => 1658480196
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/dowm'
+    ]
+    'argc' => 2
+]
+2022-07-22 12:26:33 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: cron/get-group-members in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('get-group-membe...', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('get-group-membe...', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('cron/get-group-...', Array)
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('cron/get-group-...', Array)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "cron/get-group-members". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('cron/get-group-...', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-07-22 12:26:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_10260_MPFQBNJEYJUZAQPV'
+    'COLORTERM' => 'truecolor'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'GIT_ASKPASS' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'HOME' => 'C:\\Users\\User'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'HOSTNAME' => 'DESKTOP-DKHKKAS'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\User\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/w/domains/alfa-crm'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.69.2'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => '--ms-enable-electron-run-as-node'
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-e4354c9d0e-sock'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1658481993.6236
+    'REQUEST_TIME' => 1658481993
+    'argv' => [
+        0 => 'yii'
+        1 => 'cron/get-group-members'
+    ]
+    'argc' => 2
+]
+2022-07-22 17:17:38 [-][-][-][error][Exception] Exception: Unauthorized-Not Authorized. Token is expired or undefined. in W:\domains\alfa-crm\console\models\GetInfo.php:61
+Stack trace:
+#0 W:\domains\alfa-crm\console\controllers\CronController.php(57): console\models\GetInfo->sendRequest('lesson', 'index', '{"pageSize":100...')
+#1 [internal function]: console\controllers\CronController->actionGetLessons()
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('get-lessons', Array)
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('get-lessons', Array)
+#6 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('cron/get-lesson...', Array)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('cron/get-lesson...', Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#10 {main}
+2022-07-22 17:17:38 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_10260_MPFQBNJEYJUZAQPV'
+    'COLORTERM' => 'truecolor'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'GIT_ASKPASS' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'HOME' => 'C:\\Users\\User'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'HOSTNAME' => 'DESKTOP-DKHKKAS'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\User\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/w/domains/alfa-crm'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.69.2'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => '--ms-enable-electron-run-as-node'
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-e4354c9d0e-sock'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1658499458.0703
+    'REQUEST_TIME' => 1658499458
+    'argv' => [
+        0 => 'yii'
+        1 => 'cron/get-lessons'
+    ]
+    'argc' => 2
+]
+2022-07-25 09:52:42 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "mifrate/fresh". in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('mifrate/fresh', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('mifrate/fresh', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "mifrate/fresh". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('mifrate/fresh', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-07-25 09:52:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_4088_BCJKFQCOHJYDYAAZ'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Users\\User\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\WINDOWS'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.69.2'
+    'LANG' => 'ru_RU.UTF-8'
+    'COLORTERM' => 'truecolor'
+    'GIT_ASKPASS' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => '--ms-enable-electron-run-as-node'
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-e4354c9d0e-sock'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1658731961.8366
+    'REQUEST_TIME' => 1658731961
+    'argv' => [
+        0 => 'yii'
+        1 => 'mifrate/fresh'
+    ]
+    'argc' => 2
+]
+2022-07-25 13:11:19 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: cron/get-token in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('get-token', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('get-token', Array)
+#2 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('cron/get-token', Array)
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('cron/get-token', Array)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "cron/get-token". in W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('cron/get-token', Array)
+#1 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#3 {main}
+2022-07-25 13:11:19 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_4088_BCJKFQCOHJYDYAAZ'
+    'COLORTERM' => 'truecolor'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'GIT_ASKPASS' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'HOME' => 'C:\\Users\\User'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'HOSTNAME' => 'DESKTOP-DKHKKAS'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\User\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/w/domains/alfa-crm'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.69.2'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => '--ms-enable-electron-run-as-node'
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-e4354c9d0e-sock'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1658743879.3367
+    'REQUEST_TIME' => 1658743879
+    'argv' => [
+        0 => 'yii'
+        1 => 'cron/get-token'
+    ]
+    'argc' => 2
+]
+2022-07-25 13:11:45 [-][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: console\models\Token::token in W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Component.php:209
+Stack trace:
+#0 W:\domains\alfa-crm\vendor\yiisoft\yii2\db\BaseActiveRecord.php(322): yii\base\Component->__set('token', '72401acce096238...')
+#1 W:\domains\alfa-crm\console\controllers\CronController.php(38): yii\db\BaseActiveRecord->__set('token', '72401acce096238...')
+#2 [internal function]: console\controllers\CronController->actionGetOldToken()
+#3 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction('get-old-token', Array)
+#6 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction('get-old-token', Array)
+#7 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('cron/get-old-to...', Array)
+#8 W:\domains\alfa-crm\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('cron/get-old-to...', Array)
+#9 W:\domains\alfa-crm\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 W:\domains\alfa-crm\yii(23): yii\base\Application->run()
+#11 {main}
+2022-07-25 13:11:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ADSK_3DSMAX_x64_2018' => 'C:\\Program Files\\Autodesk\\3ds Max 2018\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CHROME_CRASHPAD_PIPE_NAME' => '\\\\.\\pipe\\crashpad_4088_BCJKFQCOHJYDYAAZ'
+    'COLORTERM' => 'truecolor'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-DKHKKAS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git\\bin'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'GIT_ASKPASS' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh'
+    'HOME' => 'C:\\Users\\User'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\User'
+    'HOSTNAME' => 'DESKTOP-DKHKKAS'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-DKHKKAS'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\User\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'ORIGINAL_XDG_CURRENT_DESKTOP' => 'undefined'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\User\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\wget;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\adb;C:\\composer;C:\\Program Files\\nodejs;C:\\Program Files\\dotnet;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;W:\\modules\\php\\PHP_7.3;C:\\Users\\User\\composer;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '21'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/w/domains/alfa-crm'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TERM_PROGRAM' => 'vscode'
+    'TERM_PROGRAM_VERSION' => '1.69.2'
+    'TMP' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\User\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-DKHKKAS'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-DKHKKAS'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'VSCODE_GIT_ASKPASS_EXTRA_ARGS' => '--ms-enable-electron-run-as-node'
+    'VSCODE_GIT_ASKPASS_MAIN' => 'c:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js'
+    'VSCODE_GIT_ASKPASS_NODE' => 'C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+    'VSCODE_GIT_IPC_HANDLE' => '\\\\.\\pipe\\vscode-git-e4354c9d0e-sock'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1658743905.4847
+    'REQUEST_TIME' => 1658743905
+    'argv' => [
+        0 => 'yii'
+        1 => 'cron/get-old-token'
+    ]
+    'argc' => 2
+]

@@ -1,0 +1,50 @@
+Message-ID: <b36163c3622a8d220fb21ea47db4af03@alfa-crm>
+Date: Thu, 30 Jun 2022 08:21:19 +0300
+Subject: Account registration at My Application
+From: My Application robot <support@example.com>
+To: fredwolk6@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1656566479_9c01086baa15044ee1c7b392c2aff77f_=_"
+
+
+--_=_swift_1656566479_9c01086baa15044ee1c7b392c2aff77f_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello =D0=A2=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D1=8B=D0=B9 =D0=A3=D1=87=D0=
+=B5=D0=BD=D0=B8=D0=BA,
+
+Follow the link below to verify your email:
+
+http://alfa-crm/site/verify-email?token=3D6ULxLqq4PQY3N6ZJuBkBdJwWXD0tixtu_=
+1656566479
+
+--_=_swift_1656566479_9c01086baa15044ee1c7b392c2aff77f_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <title></title>
+    </head>
+<body>
+        <div class=3D"verify-email">
+    <p>Hello =D0=A2=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D1=8B=D0=B9 =D0=A3=D1=
+=87=D0=B5=D0=BD=D0=B8=D0=BA,</p>
+
+    <p>Follow the link below to verify your email:</p>
+
+    <p><a href=3D"http://alfa-crm/site/verify-email?token=3D6ULxLqq4PQY3N6Z=
+JuBkBdJwWXD0tixtu_1656566479">http://alfa-crm/site/verify-email?token=3D6UL=
+xLqq4PQY3N6ZJuBkBdJwWXD0tixtu_1656566479</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_1656566479_9c01086baa15044ee1c7b392c2aff77f_=_--

@@ -1,0 +1,58 @@
+Message-ID: <9bd42f8d447f0c6de2e0593cc26f2d81@alfa-crm>
+Date: Wed, 29 Jun 2022 13:09:16 +0300
+Subject: Account registration at My Application
+From: My Application robot <support@example.com>
+To: fredwolk6@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1656497356_c17956138f33aa65bf8edce059fd6499_=_"
+
+
+--_=_swift_1656497356_c17956138f33aa65bf8edce059fd6499_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello =D0=9F=D1=80=D0=B5=D0=BF=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D0=B5=
+=D0=BB=D1=8C =D0=94=D0=B8=D0=BC=D0=BE=D0=BD =D0=94=D0=BC=D0=B8=D1=82=D1=
+=80=D0=B8=D0=B5=D0=B2=D0=B8=D1=87,
+
+Follow the link below to verify you=
+r email:
+
+http://alfa-crm/site/verify-email?token=3DORX-r0RU7ePDWH-oTIN=
+z9xGLQMs692bQ_1656497356
+
+--_=_swift_1656497356_c17956138f33aa65bf8edce059fd6499_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <div class=3D"verify-email">
+    <p>Hello =D0=9F=D1=80=D0=B5=D0=BF=
+=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8C =D0=94=D0=B8=D0=
+=BC=D0=BE=D0=BD =D0=94=D0=BC=D0=B8=D1=82=D1=80=D0=B8=D0=B5=D0=B2=D0=B8=
+=D1=87,</p>
+
+    <p>Follow the link below to verify your email:</p>
+=
+
+    <p><a href=3D"http://alfa-crm/site/verify-email?token=3DORX-r0RU7ePD=
+WH-oTINz9xGLQMs692bQ_1656497356">http://alfa-crm/site/verify-email?token=3D=
+ORX-r0RU7ePDWH-oTINz9xGLQMs692bQ_1656497356</a></p>
+</div>
+    </body>=
+
+</html>
+
+
+--_=_swift_1656497356_c17956138f33aa65bf8edce059fd6499_=_--

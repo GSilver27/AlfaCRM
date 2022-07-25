@@ -1,0 +1,277 @@
+.Group_Section {
+  padding: 40px 0;
+}
+.mainInfo_block {
+  padding: 20px 0px;
+  display: flex;
+  align-items: start;
+  column-gap: 30px;
+}
+.mainInfo_user {
+  max-width: 240px;
+}
+.mainInfo_user-avatar {
+  margin-bottom: 8px;
+}
+.mainInfo_user-text-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #10082e;
+  margin-bottom: 4px;
+}
+.mainInfo_user-text-fio {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #10082e;
+  margin-bottom: 20px;
+}
+.mainInfo_lessons {
+  background: #ffffff;
+  box-shadow: 4px 4px 10px rgba(210, 210, 210, 0.2);
+  border-radius: 10px;
+  padding: 32px;
+}
+.lessons_status-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.lessons_status-balls {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 8px 12px;
+}
+.lessons_status-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #54a85d;
+}
+.lessons_position-block {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.lessons_position-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #b9b9b9;
+}
+.lesson_info {
+  margin-bottom: 24px;
+}
+.lesson_info-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #10082e;
+  margin-bottom: 8px;
+}
+.lesson_info-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #7c7c7c;
+}
+
+.lesson_info-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #10082e;
+  margin-bottom: 16px;
+}
+.lesson_info-block {
+  display: flex;
+  gap: 16px 12px;
+  flex-wrap: wrap;
+}
+.moreCourse {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.moreCourse_item {
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  background: #ffffff;
+}
+.items_card-White {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.items_card-White img {
+  margin-left: auto;
+}
+
+.items_card-course {
+  background: #ddffdb;
+}
+.cardCourse_header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.cardCourse_header-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #10082e;
+}
+.cardCourse_header-length {
+  background: #ffffff;
+  border-radius: 3px;
+  padding: 4px 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #10082e;
+}
+.cardCourse-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #10082e;
+  margin-bottom: 20px;
+}
+.cadrCourse_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+}
+.cadrCourse_footer-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #a6a6a6;
+}
+.blue_course {
+  background: #dbeaff;
+}
+.red_course {
+  background-color: #ffdbdb;
+}
+.items_card-rating {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+}
+.card_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #10082e;
+  max-width: 250px;
+}
+.cardRating_header {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.cardRating_header-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #10082e;
+}
+.carfRating_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.carfRating_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carfRating_item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #10082e;
+}
+.carfRating_item-balls {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1d1e5f;
+  white-space: nowrap;
+}
+.carfRating_item:nth-child(1) .carfRating_item-balls {
+  color: #77bf7f;
+}
+.carfRating_item:nth-child(2) .carfRating_item-balls {
+  color: #d6b03b;
+}
+.carfRating_item:nth-child(3) .carfRating_item-balls {
+  color: #ff5986;
+}
+@media (max-width: 961px) {
+  .moreCourse {
+    grid-template-columns: 1fr 1fr;
+  }
+  .items_card-rating {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+  }
+}
+@media (max-width: 791px) {
+  .mainInfo_block {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0;
+  }
+  .mainInfo_user {
+    max-width: none;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .lesson_info-title {
+    font-size: 5vmin;
+  }
+  .lesson_info-subtitle {
+    font-size: 4vmin;
+  }
+  .mainInfo_lessons {
+    padding: 4vmin;
+  }
+  .moreCourse {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .items_card-rating {
+    grid-row: 1;
+    grid-column: auto;
+  }
+  .moreCourse {
+    margin-bottom: 20px;
+  }
+  .mainInfo_block {
+    padding: 10px 0;
+  }
+  .lessons_position-text,
+  .lessons_status-text {
+    font-size: 4vmin;
+  }
+}

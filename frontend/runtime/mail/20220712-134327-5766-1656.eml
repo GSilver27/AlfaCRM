@@ -1,0 +1,48 @@
+Message-ID: <4b2866dc0a79962ac3b550e610c7d03f@alfa-crm>
+Date: Tue, 12 Jul 2022 13:43:27 +0300
+Subject: Account registration at My Application
+From: My Application robot <support@example.com>
+To: qwe@qwe.ru
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1657622607_c8544831f456f53d09b6eb4a07043135_=_"
+
+
+--_=_swift_1657622607_c8544831f456f53d09b6eb4a07043135_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello =D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B0=D0=BD=D0=B4=D1=80,
+
+Follow the link below to verify your email:
+
+http://alfa-crm/site/verify-email?token=3DlNCVhLWe4JYSbyxNeAwmB6oZWTN451Tb_=
+1657622607
+
+--_=_swift_1657622607_c8544831f456f53d09b6eb4a07043135_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <title></title>
+    </head>
+<body>
+        <div class=3D"verify-email">
+    <p>Hello =D0=90=D0=BB=D0=B5=D0=BA=D1=81=D0=B0=D0=BD=D0=B4=D1=80,</p>
+
+    <p>Follow the link below to verify your email:</p>
+
+    <p><a href=3D"http://alfa-crm/site/verify-email?token=3DlNCVhLWe4JYSbyx=
+NeAwmB6oZWTN451Tb_1657622607">http://alfa-crm/site/verify-email?token=3DlNC=
+VhLWe4JYSbyxNeAwmB6oZWTN451Tb_1657622607</a></p>
+</div>
+    </body>
+</html>
+
+
+--_=_swift_1657622607_c8544831f456f53d09b6eb4a07043135_=_--

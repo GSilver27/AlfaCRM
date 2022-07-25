@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap");
+@import url(./layout.css);
+@import url(./preloader.css);
+@import url(./student/index.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0;
+}
+html,
+body {
+  background-color: #f4f4f4;
+  height: 100%;
+}
+p {
+  margin-bottom: 0;
+}
+.container {
+  max-width: 1090px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+.btn-big {
+  outline: none;
+  box-shadow: 4px 4px 4px rgba(132, 132, 132, 0.25);
+  border-radius: 15px;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  cursor: url("/frontend/web/img/cursor.png"), pointer !important;
+  transition-duration: 0.5s;
+  user-select: none;
+  border: none;
+}
+.btn-small {
+  box-shadow: 4px 4px 4px rgba(119, 191, 127, 0.22);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 4px 20px;
+  outline: none;
+  cursor: url("/frontend/web/img/cursor.png"), pointer !important;
+  user-select: none;
+  border: none;
+  transition-duration: 0.5s;
+}
+.btn-orange {
+  background: #ffa73f;
+  color: #ffffff;
+  border: 1px solid #ffbea4;
+}
+.btn-orange:hover {
+  background: #f88a03;
+}
+.btn-white {
+  background: #ffffff;
+  border: 1px solid #343485;
+  color: #343485;
+}
+.btn-white:hover {
+  background: #6363d1;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.btn-green {
+  background: #77bf7f;
+  color: #ffffff;
+}
+.btn-green:hover {
+  background: #528d59;
+  color: #ffffff;
+}
+.btn-blue {
+  background: #343485;
+  color: #ffffff;
+}
+.btn-blue:hover {
+  background: #1d1e5f;
+}
+.btn-small-green-border {
+  background: #ffffff;
+  border: 1px solid #77bf7f;
+  color: #77bf7f;
+}
+.date-tab {
+  border-radius: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 8px 12px;
+  background: #b9b9b9;
+  max-width: fit-content;
+  cursor: url("/frontend/web/img/cursor.png"), pointer !important;
+}
+.date-tab-done {
+  background: #e1b80d;
+}
