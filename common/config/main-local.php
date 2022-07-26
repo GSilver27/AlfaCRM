@@ -4,7 +4,7 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=alfa_crm',
+            'dsn' => 'mysql:host=localhost;dbname=alfacrm',
             'username' => 'root',
             'password' => 'root',
             'charset' => 'utf8',
