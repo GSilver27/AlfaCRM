@@ -1,0 +1,149 @@
+/* --- GENERAL --- */
+html, body, div, span, h1, h2, h3, h4, h5, h6,
+p, a, img, aside, footer, header, section, main,
+button, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-family: "OpenSans", serif;
+    background: var(--background-grey);
+}
+
+:root {
+    --main-dark-blue: #1D1E5F;
+    --secondary-dark-blue: #343485;
+    --green: #77BF7F;
+    --gold: #E1B80D;
+    --pink: #FF5986;
+    --white: #FFF;
+    --background-grey: #EFEFEF;
+}
+
+.container {
+    max-width: 1090px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.button-green {
+    background: var(--green);
+}
+
+.button-dark-blue {
+    background: var(--main-dark-blue);
+}
+
+/* --- HEADER --- */
+.header_outer {
+    background: var(--white);
+}
+
+.header_inner {
+    margin: 0 auto;
+    max-width: 1065px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 15px;
+    background: var(--white);
+}
+
+.header_nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header_nav-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 20px;
+    min-width: 270px;
+    background: #F8F8F8;
+    border: 1px solid #B0B0B0;
+    border-radius: 10px;
+}
+
+.header_search-img {
+    width: 20px;
+    height: 20px;
+}
+
+.header_search-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #B0B0B0;
+    background: #F8F8F8;
+    outline:none;
+}
+
+.header_nav-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_user-teacher {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #7C7C7C;
+}
+
+.header_user-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    color: var(--secondary-dark-blue);
+}
+
+/* --- MAIN --- */
+.buttons {
+    display: flex;
+    gap: 16px;
+    padding: 20px 0 32px;
+}
+
+.button-nav {
+    color: var(--white);
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+.teacher_main {
+    width: 780px;
+    height: 644px;
+    padding: 32px;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+.teacher_info {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.teacher_photo {
+    width: 77px;
+    height: 77px;
+}
+
+.teacher_photo-change {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+/* --- FOOTER ---*/
+
+
+/**/

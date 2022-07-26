@@ -2,6 +2,7 @@
 @import url(./layout.css);
 @import url(./preloader.css);
 @import url(./student/index.css);
+@import url(./teacher/index.css);
 * {
   box-sizing: border-box;
   margin: 0;

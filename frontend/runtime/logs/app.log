@@ -39663,3 +39663,442 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2022-07-26 13:24:59 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "ыегвутеы". in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-07-26 13:24:59 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'fv22pkbo55mpvmf1voa82inis9uecq9m'
+    '_identity-frontend' => 'f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv\",2592000]\";}'
+    '_csrf-frontend' => '924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'alfacrm'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=fv22pkbo55mpvmf1voa82inis9uecq9m; _identity-frontend=f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv%22%2C2592000%5D%22%3B%7D; _csrf-frontend=924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm%22%3B%7D'
+    'PATH' => 'd:\\sg\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\sg\\openserver\\modules\\php\\PHP_7.4;d:\\sg\\openserver\\modules\\wget\\bin;d:\\sg\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'alfacrm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/SG/OpenServer/domains/alfacrm/frontend/web/index.php'
+    'REMOTE_PORT' => '56664'
+    'REDIRECT_URL' => '/frontend/web/ыегвутеы'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/%D1%8B%D0%B5%D0%B3%D0%B2%D1%83%D1%82%D0%B5%D1%8B'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658831099.838
+    'REQUEST_TIME' => 1658831099
+    'argv' => []
+    'argc' => 0
+]
+2022-07-26 13:25:04 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "students". in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-07-26 13:25:04 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'fv22pkbo55mpvmf1voa82inis9uecq9m'
+    '_identity-frontend' => 'f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv\",2592000]\";}'
+    '_csrf-frontend' => '924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'alfacrm'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=fv22pkbo55mpvmf1voa82inis9uecq9m; _identity-frontend=f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv%22%2C2592000%5D%22%3B%7D; _csrf-frontend=924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm%22%3B%7D'
+    'PATH' => 'd:\\sg\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\sg\\openserver\\modules\\php\\PHP_7.4;d:\\sg\\openserver\\modules\\wget\\bin;d:\\sg\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'alfacrm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/SG/OpenServer/domains/alfacrm/frontend/web/index.php'
+    'REMOTE_PORT' => '56664'
+    'REDIRECT_URL' => '/frontend/web/students'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/students'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658831104.232
+    'REQUEST_TIME' => 1658831104
+    'argv' => []
+    'argc' => 0
+]
+2022-07-26 13:30:46 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "students". in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-07-26 13:30:46 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'fv22pkbo55mpvmf1voa82inis9uecq9m'
+    '_identity-frontend' => 'f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv\",2592000]\";}'
+    '_csrf-frontend' => '924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'alfacrm'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=fv22pkbo55mpvmf1voa82inis9uecq9m; _identity-frontend=f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv%22%2C2592000%5D%22%3B%7D; _csrf-frontend=924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm%22%3B%7D'
+    'PATH' => 'd:\\sg\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\sg\\openserver\\modules\\php\\PHP_7.4;d:\\sg\\openserver\\modules\\wget\\bin;d:\\sg\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'alfacrm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/SG/OpenServer/domains/alfacrm/frontend/web/index.php'
+    'REMOTE_PORT' => '56932'
+    'REDIRECT_URL' => '/frontend/web/students'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/students'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658831446.27
+    'REQUEST_TIME' => 1658831446
+    'argv' => []
+    'argc' => 0
+]
+2022-07-26 13:30:49 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/img/OpenSans-Regular.ttf". in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-07-26 13:30:49 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'fv22pkbo55mpvmf1voa82inis9uecq9m'
+    '_identity-frontend' => 'f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv\",2592000]\";}'
+    '_csrf-frontend' => '924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'alfacrm'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'http://alfacrm'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://alfacrm/css/teacher/index.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=fv22pkbo55mpvmf1voa82inis9uecq9m; _identity-frontend=f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv%22%2C2592000%5D%22%3B%7D; _csrf-frontend=924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm%22%3B%7D'
+    'PATH' => 'd:\\sg\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\sg\\openserver\\modules\\php\\PHP_7.4;d:\\sg\\openserver\\modules\\wget\\bin;d:\\sg\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'alfacrm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/SG/OpenServer/domains/alfacrm/frontend/web/index.php'
+    'REMOTE_PORT' => '56932'
+    'REDIRECT_URL' => '/frontend/web/css/img/OpenSans-Regular.ttf'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/img/OpenSans-Regular.ttf'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658831449.819
+    'REQUEST_TIME' => 1658831449
+    'argv' => []
+    'argc' => 0
+]
+2022-07-26 13:36:26 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/search.webp". in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-07-26 13:36:26 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'fv22pkbo55mpvmf1voa82inis9uecq9m'
+    '_identity-frontend' => 'f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv\",2592000]\";}'
+    '_csrf-frontend' => '924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'alfacrm'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://alfacrm/teacher'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=fv22pkbo55mpvmf1voa82inis9uecq9m; _identity-frontend=f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv%22%2C2592000%5D%22%3B%7D; _csrf-frontend=924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm%22%3B%7D'
+    'PATH' => 'd:\\sg\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\sg\\openserver\\modules\\php\\PHP_7.4;d:\\sg\\openserver\\modules\\wget\\bin;d:\\sg\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'alfacrm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/SG/OpenServer/domains/alfacrm/frontend/web/index.php'
+    'REMOTE_PORT' => '57239'
+    'REDIRECT_URL' => '/frontend/web/img/search.webp'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/img/search.webp'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658831786.359
+    'REQUEST_TIME' => 1658831786
+    'argv' => []
+    'argc' => 0
+]
+2022-07-26 13:56:56 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][error][Error] Error: Class 'Url' not found in D:\SG\OpenServer\domains\alfacrm\frontend\views\teacher\index.php:15
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 D:\SG\OpenServer\domains\alfacrm\frontend\controllers\TeacherController.php(62): yii\base\Controller->render()
+#5 [internal function]: frontend\controllers\TeacherController->actionIndex()
+#6 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2022-07-26 13:56:56 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'fv22pkbo55mpvmf1voa82inis9uecq9m'
+    '_identity-frontend' => 'f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv\",2592000]\";}'
+    '_csrf-frontend' => '924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'alfacrm'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=fv22pkbo55mpvmf1voa82inis9uecq9m; _identity-frontend=f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv%22%2C2592000%5D%22%3B%7D; _csrf-frontend=924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm%22%3B%7D'
+    'PATH' => 'd:\\sg\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\sg\\openserver\\modules\\php\\PHP_7.4;d:\\sg\\openserver\\modules\\wget\\bin;d:\\sg\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'alfacrm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/SG/OpenServer/domains/alfacrm/frontend/web/index.php'
+    'REMOTE_PORT' => '58064'
+    'REDIRECT_URL' => '/frontend/web/teacher'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/teacher'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1658833016.341
+    'REQUEST_TIME' => 1658833016
+    'argv' => []
+    'argc' => 0
+]
