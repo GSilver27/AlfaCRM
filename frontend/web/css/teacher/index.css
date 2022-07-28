@@ -9,6 +9,11 @@ button, input {
     text-decoration: none;
 }
 
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
 html {
     font-family: "OpenSans", serif;
     background: var(--background-grey);
@@ -22,6 +27,11 @@ html {
     --pink: #FF5986;
     --white: #FFF;
     --background-grey: #EFEFEF;
+}
+
+.teacher-wrapper {
+    display: flex;
+    flex-direction: row;
 }
 
 .container {
@@ -114,10 +124,49 @@ html {
     color: var(--secondary-dark-blue);
 }
 
+/* --- ASIDE --- */
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background: #FFF;
+}
+
+aside img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 36px 55px;
+    background: #FFF;
+    width: 250px;
+}
+
+.nav-btn {
+    text-align: center;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 5px;
+    color: #5B5B5B;
+    background: var(--background-grey);
+}
+
+.nav-btn_active {
+    color: var(--white);
+    background: var(--secondary-dark-blue);
+}
+
 /* --- MAIN --- */
 .main {
     padding: 0;
-    margin: 0 30px;
+    margin: 0 15px;
 }
 
 .buttons {
@@ -126,16 +175,16 @@ html {
     padding: 16px 0;
 }
 
-.button-nav {
+.teacher-btn {
     color: var(--white);
     border-radius: 5px;
     padding: 4px 20px;
+    box-shadow: 4px 4px 4px rgba(132, 132, 132, 0.25);
 }
 
-.teacher_main {
-    width: 780px;
-    height: 644px;
-    padding: 32px;
+.teacher__main {
+    /*max-width: 780px;*/
+    min-height: 635px;
     background: #FFF;
     border-radius: 10px;
 }
@@ -145,39 +194,40 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 32px;
 }
 
-.teacher_photo {
+.teacher__photo {
     display: flex;
     flex-direction: column;
     gap: 9px;
 }
 
-.teacher_photo-img {
+.teacher__photo-img {
     width: 77px;
     height: 77px;
 }
 
-.teacher_photo-change {
+.teacher__photo-change {
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
     cursor: pointer;
 }
 
-.teacher_info {
+.teacher__info {
     display: flex;
     flex-direction: column;
 }
 
-.teacher_info-name {
+.teacher__info-name {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     color: #10082E;
 }
 
-.teacher_info-general {
+.teacher__info-general {
     display: flex;
     flex-direction: row;
     margin-top: 7px;
@@ -188,22 +238,14 @@ html {
     color: #5B5B5B;
 }
 
-.teacher_age {
-
-}
-
-.teacher_gender {
-
-}
-
-.teacher_info-divider {
+.teacher__info-divider {
     width: 200px;
     height: 1px;
     background: #C7C7C7;
     margin: 8px 0;
 }
 
-.teacher_info-email {
+.teacher__info-email {
     display: flex;
     flex-direction: row;
     gap: 8px;
@@ -213,21 +255,21 @@ html {
     color: #5B5B5B;
 }
 
-.teacher_planning {
+.teacher__planning {
     background: #FAFFDB;
     border-radius: 10px;
     padding: 20px 36px 20px 32px;
 }
 
-.teacher_planning-id,
-.teacher_planning-lessons {
+.teacher__planning-id,
+.teacher__planning-lessons {
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
     color: #5B5B5B;
 }
-.teacher_planning-id span,
-.teacher_planning-lessons span {
+.teacher__planning-id span,
+.teacher__planning-lessons span {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -235,7 +277,7 @@ html {
     padding-left: 12px;
 }
 
-.teacher_planning-btn {
+.teacher__planning-btn {
     padding: 4px 16px;
     margin-left: 36px;
     background: #FFF;
@@ -243,8 +285,73 @@ html {
     border-radius: 5px;
 }
 
+.teacher__schedule {
+    padding-bottom: 5px;
+}
 
-/* --- FOOTER ---*/
+.teacher__schedule-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #10082E;
+    padding: 0 32px 12px;
+}
 
+.schedule {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    padding-bottom: 30px;
+}
 
-/**/
+.schedule-row {
+    display: flex;
+    flex-direction: row;
+    padding: 0 32px;
+}
+
+.schedule-row-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    padding: 4px 0 6px;
+}
+
+.schedule-row:nth-child(odd) {
+    background: #F8F8F8;
+}
+
+.schedule-row__date,
+.schedule-row__time,
+.schedule-row__name,
+.schedule-row__duration,
+.schedule-row__type {
+    max-width: 140px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #606060;
+}
+
+.schedule-row__date {
+    width: 100px;
+}
+
+.schedule-row__date div:first-of-type {
+    font-weight: 600;
+    color: var(--secondary-dark-blue);
+}
+
+.schedule-row__type img {
+    padding-right: 8px;
+}
+
+.schedule-row__date-day {
+    padding-bottom: 4px;
+}
+
+/* --- MEDIA --- */
+@media (max-width: 1130px) {
+
+}
