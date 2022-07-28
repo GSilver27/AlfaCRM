@@ -11,18 +11,18 @@ $this->title = 'Мой кабинет';
 
 <div class="teacher-wrapper container">
 
-<aside>
-   <nav> <!-- class="container"-->
-        <div class="nav-btn nav-btn_active"><a href="#">Мой профиль</a></div>
-        <div class="nav-btn"><a href="#">Уроки</a></div>
-        <div class="nav-btn"><a href="#">Задачи</a></div>
-        <div class="nav-btn"><a href="#">Клиенты</a></div>
-        <div class="nav-btn"><a href="#">Группы</a></div>
-        <div class="nav-btn"><a href="#">Информер</a></div>
-        <div class="nav-btn"><a href="#">Чат</a></div>
-    </nav>
-    <img src="<?= Url::to(['img/aside-bar.png']) ?>" alt="">
-</aside>
+<!--<aside>-->
+<!--   <nav>
+<!--        <div class="nav-btn nav-btn_active"><a href="#">Мой профиль</a></div>-->
+<!--        <div class="nav-btn"><a href="#">Уроки</a></div>-->
+<!--        <div class="nav-btn"><a href="#">Задачи</a></div>-->
+<!--        <div class="nav-btn"><a href="#">Клиенты</a></div>-->
+<!--        <div class="nav-btn"><a href="#">Группы</a></div>-->
+<!--        <div class="nav-btn"><a href="#">Информер</a></div>-->
+<!--        <div class="nav-btn"><a href="#">Чат</a></div>-->
+<!--    </nav>-->
+<!--    <img src="--><?//= Url::to(['img/aside-bar.png']) ?><!--" alt="">-->
+<!--</aside>-->
 
 <main class="container">
     <div class="buttons">
@@ -65,7 +65,7 @@ $this->title = 'Мой кабинет';
                     ID <span>#20</span>
                 </div>
                 <div class="teacher__planning-lessons">
-                    Уроки <span>0 штук</span>
+                    <div>Уроки <span>0 штук</span></div>
                     <button class="teacher__planning-btn">Запланировать</button>
                 </div>
             </div>

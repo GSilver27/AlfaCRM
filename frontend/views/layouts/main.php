@@ -72,8 +72,8 @@ AppAsset::register($this);
                       </a>
                   </div>
 
-                  <div class="header_nav">
-                      <div class="header_nav-search">
+                  <div class="header__nav">
+                      <div class="header__nav-search">
                           <img class="header_search-img" src="<?= Url::to(['img/icons/search.webp']) ?>" alt="">
                           <input class="header_search-text" placeholder="Поиск клиента">
                       </div>

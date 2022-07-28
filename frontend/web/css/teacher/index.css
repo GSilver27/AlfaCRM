@@ -9,6 +9,12 @@ button, input {
     text-decoration: none;
 }
 
+button, input,
+a:hover, .teacher__photo:hover,
+.teacher__schedule:hover {
+    cursor: url("../../img/cursor.png"), pointer !important;
+}
+
 a:hover {
     color: red;
     text-decoration: none;
@@ -74,12 +80,12 @@ html {
     background: var(--white);
 }
 
-.header_nav {
+.header__nav {
     display: flex;
     gap: 30px;
 }
 
-.header_nav-search {
+.header__nav-search {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -102,7 +108,7 @@ html {
     line-height: 19px;
     color: #B0B0B0;
     background: #F8F8F8;
-    outline:none;
+    outline: none;
 }
 
 .header_nav-user {
@@ -183,7 +189,7 @@ nav {
 }
 
 .teacher__main {
-    /*max-width: 780px;*/
+    max-width: 780px;
     min-height: 635px;
     background: #FFF;
     border-radius: 10px;
@@ -212,7 +218,6 @@ nav {
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
-    cursor: pointer;
 }
 
 .teacher__info {
@@ -261,6 +266,12 @@ nav {
     padding: 20px 36px 20px 32px;
 }
 
+.teacher__planning-lessons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .teacher__planning-id,
 .teacher__planning-lessons {
     font-weight: 600;
@@ -268,6 +279,7 @@ nav {
     line-height: 22px;
     color: #5B5B5B;
 }
+
 .teacher__planning-id span,
 .teacher__planning-lessons span {
     font-weight: 400;
@@ -314,7 +326,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 48px;
+    gap: 5vmin;
     padding: 4px 0 6px;
 }
 
@@ -332,10 +344,15 @@ nav {
     font-size: 14px;
     line-height: 19px;
     color: #606060;
+    overflow-wrap: break-word;
 }
 
 .schedule-row__date {
     width: 100px;
+}
+
+.schedule-row__name {
+    width: 120px;
 }
 
 .schedule-row__date div:first-of-type {
@@ -348,10 +365,120 @@ nav {
 }
 
 .schedule-row__date-day {
+    min-width: 100px;
     padding-bottom: 4px;
 }
 
 /* --- MEDIA --- */
-@media (max-width: 1130px) {
+@media (max-width: 1110px) {
+    .teacher__main * {
+        font-size: 2vmin;
+    }
+
+    .schedule-row * {
+        font-size: 2vmin;
+    }
+
+    .schedule-row-inner {
+        overflow-x: scroll;
+    }
 
 }
+
+@media (max-width: 800px) {
+    .header_outer * {
+        font-size: 2vmin;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .teacher_main-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .header__nav {
+        gap: 10px;
+    }
+
+    .header__nav {
+        align-items: center;
+    }
+
+    .header__nav-search {
+        gap: 5px;
+        padding: 0 5px;
+        min-width: 130px;
+        height: 30px;
+    }
+
+    input {
+        width: 150px;
+    }
+
+    .buttons {
+        font-size: 2vmin;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .header_inner {
+        padding: 10px 0;
+    }
+
+    .buttons {
+        gap: 8px;
+        padding: 8px 0;
+    }
+
+    .teacher-btn {
+        padding: 5px 10px;
+    }
+
+    .schedule-row {
+        padding: 0 1px;
+    }
+
+    .teacher__planning {
+        display: flex;
+        flex-direction: column;
+        align-content: start;
+        padding: 15px 55px;
+    }
+
+    .teacher__planning-lessons {
+        display: flex;
+        flex-direction: column;
+        align-content: start;
+    }
+
+    .teacher__planning-id span,
+    .teacher__planning-lessons span {
+        padding-left: 12px;
+    }
+
+    .teacher__planning-btn {
+        margin-top: 5px;
+        padding: 2px 10px;
+        margin-left: 0;
+    }
+
+    .schedule-row__date,
+    .schedule-row__name,
+    .schedule-row__date-day {
+        width: 50px;
+    }
+
+}
+
