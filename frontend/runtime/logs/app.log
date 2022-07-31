@@ -42703,3 +42703,85 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2022-07-31 15:04:26 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][error][Exception] Exception: Unauthorized-Not Authorized. Token is expired or undefined. in D:\SG\OpenServer\domains\alfacrm\console\models\GetInfo.php:61
+Stack trace:
+#0 D:\SG\OpenServer\domains\alfacrm\frontend\controllers\SiteController.php(303): console\models\GetInfo->sendRequest()
+#1 [internal function]: frontend\controllers\SiteController->actionConnect()
+#2 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\SG\OpenServer\domains\alfacrm\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 D:\SG\OpenServer\domains\alfacrm\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-07-31 15:04:26 [127.0.0.1][1][fv22pkbo55mpvmf1voa82inis9uecq9m][info][application] $_GET = []
+
+$_POST = [
+    'entity' => 'cgi'
+    'method' => 'index'
+    'get' => [
+        'group_id' => '128'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'fv22pkbo55mpvmf1voa82inis9uecq9m'
+    '_identity-frontend' => 'f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv\",2592000]\";}'
+    '_csrf-frontend' => '924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'alfacrm'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '45'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'JofqIYSpdqQw0s5hF7gtzEK9KSh_V_GcJ9h4_rIQXnRN1pMM6Jo--0KihQZh8nePD9Z_W1IIgMRFjhnI6nkqGQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://alfacrm'
+    'HTTP_REFERER' => 'http://alfacrm/student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=fv22pkbo55mpvmf1voa82inis9uecq9m; _identity-frontend=f432c6db6f736d3965ca8e8ba8342e14b15459a09ba0fa1b01170dd6cbbbdc9fa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Y3QybgTTf0dlnOQUiOwq5viRhgnzHNXv%22%2C2592000%5D%22%3B%7D; _csrf-frontend=924f2d42bfbd1c677d854375013900d7db64a3ed8d8cfe0548d60dbd0b68dda9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22kQy-l3H_rpKgvJZCMkVs-_qXbVa6Xitm%22%3B%7D'
+    'PATH' => 'd:\\sg\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\sg\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\sg\\openserver\\modules\\php\\PHP_7.4;d:\\sg\\openserver\\modules\\wget\\bin;d:\\sg\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\sg\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'alfacrm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/SG/OpenServer/domains/alfacrm'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/SG/OpenServer/domains/alfacrm/frontend/web/index.php'
+    'REMOTE_PORT' => '56509'
+    'REDIRECT_URL' => '/frontend/web/site/connect'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/connect'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1659269066.132
+    'REQUEST_TIME' => 1659269066
+    'argv' => []
+    'argc' => 0
+]

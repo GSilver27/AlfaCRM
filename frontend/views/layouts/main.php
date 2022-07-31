@@ -37,55 +37,55 @@ AppAsset::register($this);
 
 <body>
   <?php $this->beginBody() ?>
-  <div class="wrapper">
-    <?php if (
-      Yii::$app->controller->action->id !== 'login'
-      && Yii::$app->controller->action->id !== 'signup'
-      && Yii::$app->controller->action->id === 'teacher'
-    ) : ?>
-      <header class='header'>
-        <div class="container">
-          <div class="header_body">
-            <a class="header_logo" href="<?= Url::to(['/']) ?>">
-              <img src="<?= Url::to(['img/logo.svg']) ?>" alt="Логотип">
-            </a>
-            <div class="header_nav-block nav_block">
-              <div class="nav_block-body">
-                <a href="<?= Url::to(['site/logout']) ?>" class="nav_lesson-last">2 урока</a>
-                <img class="connect" src="<?= Url::to(['img/partmane.svg']) ?>" alt="Кошелек">
-              </div>
-              <div class="header_name connect" data-entity='customer' data-type='index' data-data[id]='<?= $user->crm_id ?>' data-data[name]='<?= $user->username ?>' data-get=''>
-                <?= $user->username ?>
+      <div class="wrapper">
+        <?php if (
+          Yii::$app->controller->action->id !== 'login'
+          && Yii::$app->controller->action->id !== 'signup'
+          && Yii::$app->controller->action->id === 'teacher'
+        ) : ?>
+          <header class='header'>
+            <div class="container">
+              <div class="header_body">
+                <a class="header_logo" href="<?= Url::to(['/']) ?>">
+                  <img src="<?= Url::to(['img/logo.svg']) ?>" alt="Логотип">
+                </a>
+                <div class="header_nav-block nav_block">
+                  <div class="nav_block-body">
+                    <a href="<?= Url::to(['site/logout']) ?>" class="nav_lesson-last">2 урока</a>
+                    <img class="connect" src="<?= Url::to(['img/partmane.svg']) ?>" alt="Кошелек">
+                  </div>
+                  <div class="header_name connect" data-entity='customer' data-type='index' data-data[id]='<?= $user->crm_id ?>' data-data[name]='<?= $user->username ?>' data-get=''>
+                    <?= $user->username ?>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </header>
-    <?php endif; ?>
-
-      <?php if (Yii::$app->controller->id === 'teacher') : ?>
-          <header class="header_outer">
-              <div class="header_inner">
-                  <div class="logo">
-                      <a href="#">
-                          <img src="<?= Url::to(['img/logo.svg']) ?>"" alt="Логотип">
-                      </a>
-                  </div>
-
-                  <div class="header__nav">
-                      <div class="header__nav-search">
-                          <img class="header_search-img" src="<?= Url::to(['img/icons/search.webp']) ?>" alt="">
-                          <input class="header_search-text" placeholder="Поиск клиента">
-                      </div>
-
-                      <div class="header_nav-user">
-                          <div class="header_user-teacher">Учитель:</div>
-                          <div class="header_user-name">Марина Любимова</div>
-                      </div>
-                  </div>
-              </div>
           </header>
-      <?php endif; ?>
+        <?php endif; ?>
+
+          <?php if (Yii::$app->controller->id === 'teacher') : ?>
+              <header class="header_outer">
+                  <div class="header_inner">
+                      <div class="logo">
+                          <a href="#">
+                              <img src="<?= Url::to(['img/logo.svg']) ?>"" alt="Логотип">
+                          </a>
+                      </div>
+
+                      <div class="header__nav">
+                          <div class="header__nav-search">
+                              <img class="header_search-img" src="<?= Url::to(['img/icons/search.webp']) ?>" alt="">
+                              <input class="header_search-text" placeholder="Поиск клиента">
+                          </div>
+
+                          <div class="header_nav-user">
+                              <div class="header_user-teacher">Учитель:</div>
+                              <div class="header_user-name">Марина Любимова</div>
+                          </div>
+                      </div>
+                  </div>
+              </header>
+          <?php endif; ?>
 
     <main class="main">
       <?php print_r($userInfo) ?>

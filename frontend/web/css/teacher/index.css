@@ -11,7 +11,11 @@ button, input {
 
 button, input,
 a:hover, .teacher__photo:hover,
-.teacher__schedule:hover {
+.teacher__schedule:hover,
+.popup-add-lesson__container input,
+.popup-add-lesson__container select,
+.popup-add-lesson__container svg,
+.popup-add-lesson__container textarea {
     cursor: url("../../img/cursor.png"), pointer !important;
 }
 
@@ -369,6 +373,133 @@ nav {
     padding-bottom: 4px;
 }
 
+/* --- POPUP --- */
+.popup-add-lesson__container {
+    width: 600px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.popup__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px 16px 40px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #10082E;
+    background: #F2F2F2;
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.popup__body {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 24px 40px;
+    color: #5D5D5D;
+}
+
+.popup__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+}
+
+.popup__row .row__subject {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    width: 115px;
+}
+
+.popup__row .row__info {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    min-width: 230px;
+}
+
+.row__info .row__info-time {
+    margin-left: 12px;
+    font-weight: 600;
+    text-align: center;
+    width: 60px;
+    padding: 3px 4px;
+    border: 1px solid #9B9A9A;
+    border-radius: 0;
+}
+
+.popup__row .mins,
+.popup__row .mins-num{
+    padding: 3px 4px;
+    font-weight: 600;
+    border: 1px solid #9B9A9A;
+}
+
+.popup__row .mins-num {
+    margin-right: 10px;
+}
+
+.popup__row .color-main {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--main-dark-blue);
+}
+
+.row__info input, select, textarea {
+    border: 1px solid #9B9A9A;
+    border-radius: 7px;
+    padding: 4px 12px;
+    width: 230px;
+}
+
+textarea {
+    min-height: 32px;
+    max-height: 200px;
+}
+
+.popup_btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-top: 7px;
+}
+
+.popup__body button {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 9px 11px;
+    box-shadow: 4px 4px 4px rgba(132, 132, 132, 0.25);
+    border-radius: 5px;
+}
+
+.popup__body button img,
+.popup__body button svg {
+    margin-right: 9px;
+}
+
+.popup-btn_save {
+    background: var(--green);
+}
+
+.popup-btn_cancel {
+    background: var(--pink);
+}
+
+.popup__body button img {
+    width: 15px;
+    height: 15px;
+}
+
 /* --- MEDIA --- */
 @media (max-width: 1110px) {
     .teacher__main * {
@@ -382,7 +513,6 @@ nav {
     .schedule-row-inner {
         overflow-x: scroll;
     }
-
 }
 
 @media (max-width: 800px) {
@@ -399,7 +529,70 @@ nav {
         align-items: center;
         gap: 30px;
     }
+}
 
+@media (max-width: 660px) {
+    .container {
+        padding: 0 5px !important;
+        margin: 0 auto;
+    }
+
+    .popup-add-lesson__container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .popup__header {
+        padding: 12px 20px 16px 12px;
+    }
+
+    .popup__body {
+        padding: 24px 12px;
+    }
+
+    .popup__row {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 430px) {
+    .popup__body {
+        padding: 24px 6px;
+    }
+
+    .popup__row {
+        justify-content: space-between;
+    }
+
+    .popup__row .row__subject {
+        font-size: 12px;
+    }
+    .popup__row .row__info {
+        font-size: 10px;
+    }
+
+    .row__info input, select, textarea {
+        width: 150px;
+    }
+
+    .popup__row .row__subject {
+        width: 140px;
+    }
+
+    .row__info .row__info-time {
+        margin-left: 6px;
+        font-weight: 600;
+        width: 40px;
+        padding: 2px;
+    }
+
+    .popup__row .mins-num {
+        margin-right: 4px;
+    }
+
+    .popup__row .color-main {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -429,7 +622,6 @@ nav {
     .buttons {
         font-size: 2vmin;
     }
-
 }
 
 @media (max-width: 500px) {
@@ -479,6 +671,4 @@ nav {
     .schedule-row__date-day {
         width: 50px;
     }
-
 }
-
